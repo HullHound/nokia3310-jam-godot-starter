@@ -10,7 +10,7 @@ func _ready() -> void:
 	_music.bus = "Music"
 	_sfx = AudioStreamPlayer.new()
 	_sfx.bus = "Sfx"
-	_sfx.connect("finished", self, "_on_sfx_finished")
+	_sfx.connect("finished", Callable(self, "_on_sfx_finished"))
 	add_child(_music)
 	add_child(_sfx)
 
