@@ -1,3 +1,5 @@
+// Created by HullHound 09/02/2024 - Based on the already present visual shader
+
 shader_type canvas_item;
 render_mode blend_mix;
 

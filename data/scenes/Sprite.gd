@@ -1,3 +1,5 @@
+## Modified by HullHound 09/02/2024 - Addition of Round To Pixel Code
+
 extends Sprite2D
 
 @export var round_to_pixel: bool = false;
