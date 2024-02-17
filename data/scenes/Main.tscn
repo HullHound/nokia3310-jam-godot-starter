@@ -9,6 +9,7 @@ shader = ExtResource("1_4lj7c")
 shader_parameter/ColorLight = Color(0.780392, 0.941176, 0.847059, 1)
 shader_parameter/ColorDark = Color(0.262745, 0.321569, 0.239216, 1)
 shader_parameter/ScreenSize = Vector3(84, 48, 0)
+shader_parameter/dither = false
 shader_parameter/dither_texture = ExtResource("2_3vf3e")
 
 [node name="Main" type="Node"]
